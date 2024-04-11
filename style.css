@@ -1,0 +1,64 @@
+#spinner {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border: 20px solid rgb(208, 205, 205);
+    border-top: 20px solid #0992ed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: spin 1s linear  infinite;
+    z-index: 1;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);    
+    }
+  }
+
+  body{
+    background: fixed url(./img/background.jpg);
+  }
+
+  .box{
+    width: 700px;
+    height: 500px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #f1a3bb,-10px -10px 10px #f1a3bb;
+  }
+
+  .quotes{
+    position: absolute;
+    left: 5%;
+    padding-right: 20px;
+
+  }
+
+  .text1{
+    font-family:  "Diphylleia", serif;
+  }
+  
+  .text2{
+    font-family: "Permanent Marker", cursive;;
+    /* font-weight: bolder; */
+  }
+.button{
+  position: absolute;
+  top:90%;
+  left:40%;
+}
+  
+  .box p{
+    
+    
+    font-size: 35px;
+  }
